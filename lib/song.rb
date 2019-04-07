@@ -55,4 +55,8 @@ class Song
     @@all << song
     song
   end
+  
+  def Song.destroy_all()
+    @@all.clear
+  end
 end
